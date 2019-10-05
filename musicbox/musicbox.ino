@@ -10,9 +10,9 @@ Button buttonMelodyOne(PIN_BUTTON_MEL_ONE);
 Button buttonOff(PIN_BUTTON_OFF);
 Buzzer buzzer(PIN_BUZZER);
 
-int notes[] = {NOTE_FS5, NOTE_CS5, NOTE_GS5, NOTE_A5, NOTE_A5, NOTE_FS5, NOTE_CS5, NOTE_GS5, NOTE_A5, NOTE_B5, NOTE_A5, NOTE_FS5, NOTE_GS5, NOTE_E5, NOTE_D5, NOTE_E5, NOTE_FS5, NOTE_D5, NOTE_CS5, NOTE_D5, NOTE_E5};
-double durations[] = {6, 6, 9, 6, 6, 6, 6, 9, 6, 6, 6, 9, 6, 6, 6, 9, 6, 6, 6, 9, 6};
-int melodyLength = 21;
+int notes[] = {NOTE_FS5, NOTE_CS6, NOTE_GS5, NOTE_SILENCE, NOTE_A5, NOTE_A5, NOTE_FS5, NOTE_CS6, NOTE_GS5, NOTE_A5, NOTE_B5, NOTE_A5, NOTE_FS5, NOTE_GS5, NOTE_E5, NOTE_D5, NOTE_E5, NOTE_FS5, NOTE_D5, NOTE_CS5, NOTE_D5, NOTE_E5};
+double durations[] = {6, 6, 12, 2, 4, 4, 6, 6, 9, 5, 5, 6, 6, 12, 6, 6, 6, 12, 6, 6, 6, 6};
+int melodyLength = 22;
 
 // maybe somewhere in the future we will have one more button...
  #define PIN_BUTTON_MEL_TWO 4
